@@ -272,20 +272,12 @@ void Lobby::on_connect_released()
 
 void Lobby::on_about_clicked()
 {
-	call_notice("Attorney Online 2 is built using Qt 5.7\n\n"
-							"Lead development:\n"
+	call_notice("Development:\n"
 							"OmniTroid\n\n"
-							"Supporting development:\n"
-							"stonedDiscord\n"
-							"Fiercy\n\n"
-							"UI design:\n"
-							"Ruekasu\n"
-							"Draxirch\n\n"
-							"Special thanks:\n"
-							"Unishred\n"
-							"Argoneus\n"
-							"Noevain\n"
-							"Cronnicossy");
+							"UI and logo design:\n"
+							"Ruekasu\n\n"
+							"Copyright (c) David \"OmniTroid\" Skoland 2016-2018\n\n"
+							"https://github.com/OmniTroid/attorney_online");
 }
 
 void Lobby::on_server_list_clicked(QModelIndex p_model)
